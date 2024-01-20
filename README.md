@@ -66,4 +66,15 @@ To RUN this program
         ```
         java HelloWorld
         ```
-    
+```java
+
+
+class Sample{
+        public static void main(Sring args[]){
+            int a; // declaration
+            int b = 1; //declaration with initialization
+            a = 10;
+            System.out.println("a= "+a); // we write " + " for concatinating the value of a
+        }
+    }
+```   
