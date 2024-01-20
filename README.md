@@ -41,10 +41,11 @@ JDK-17 is more stable than JDK-21 so we will install JDK-17. Follow thie steps g
     - click ok and check again (same as step 4 but change the directory to C or D drive)
 ---
 ### First Program
-- Class name always starts with Capital letter
-- Java is Case sensitive language
-- File name and class name should be same
-    HelloWorld.java (this is source file)
+- Class name always starts with Capital .
+- Java is Case sensitive language.
+- File name and class name should be same.
+
+    HelloWorld.java (this is source file which should be saved with *.java* extension)
     ```java
     class HelloWorld{
         public static void main(Sring args[]){
@@ -54,7 +55,7 @@ JDK-17 is more stable than JDK-21 so we will install JDK-17. Follow thie steps g
     ```
 To RUN this program
 1. Save the file with name *HelloWorld.java*
-2. open command prompt:
+2. open terminal:
     - To compile the file
         ```
         javac HelloWorld.java
