@@ -76,6 +76,7 @@ class Sample{
             System.out.println("a= "+a); // we write " + " for concatinating the value of a
         }
     }
+<<<<<<< HEAD
 ```
 ## Data-types in java
 Data types are used to specify the compiler that the programmer is using such sort of data.
@@ -303,3 +304,6 @@ class Occurence{
 
 // Output: Number of 'a' in string is = 3
 ```
+=======
+```   
+>>>>>>> dbce4876da7e7600cee19a4909c09964a543282b
