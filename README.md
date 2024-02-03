@@ -313,3 +313,47 @@ class Occurence{
 6. Goto File -> New -> Java Project , give project nae and create
 7. Remove the file from src (it creates error)
 8. right click and create class, here you can start.
+
+Sample code:
+```java
+//Print Table of two
+public class tableOfTwo {
+	public static void main(String[] args) {
+		int key = 5;
+		int result;
+		for(int index = 0; index <= 10; index++) {
+			result = key * index;
+			System.out.println(key+" * "+index+" = "+result);
+		}
+	}
+}
+```
+```java
+// Print logical series: 5 8 10 16 15 24 20 32... 
+public class LogicSeries {
+	public static void main(String[] args) {
+		int num1 = 5, num2 = 8;
+		int result1, result2;
+		for(int index = 1; index <= 10; index++) {
+			result1 = num1*index;
+			result2 = num2*index;
+			System.out.print(result1+" "+result2+" ");
+		}
+	}
+}
+```
+```java
+// Fibonacci series
+public class fibonacci {
+	public static void main(String[] args) {
+		int num1 = 0, num2 = 1;
+		for(int index = 0; index<= 10; index++) {
+			System.out.print(num1+" ");
+			int temp = num1;
+			num1 = num2;
+			num2 = temp + num2;
+		}
+	}
+}
+```
+mpre sample codes are written in Eclipse IDE and stored in : *Eclipse\My_First_Project\src*
