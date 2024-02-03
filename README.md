@@ -76,7 +76,6 @@ class Sample{
             System.out.println("a= "+a); // we write " + " for concatinating the value of a
         }
     }
-<<<<<<< HEAD
 ```
 ## Data-types in java
 Data types are used to specify the compiler that the programmer is using such sort of data.
@@ -303,7 +302,14 @@ class Occurence{
 }
 
 // Output: Number of 'a' in string is = 3
-```
-=======
-```   
->>>>>>> dbce4876da7e7600cee19a4909c09964a543282b
+``` 
+(03/02/2024)
+## Installation of Eclipse IDE
+1. Visit [here](https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2023-12/R/eclipse-inst-jre-win64.exe), and download the IDE.
+2. After installation open the downloaded `eclipse-inst-jre-win64.exe` file and select *Eclipse IDE for Java Developers*
+3. Locate JAVA 17+VM , and from drop down select *JRE 17.0.10* and click install (This may take time because it downloads dependencies from the internet)
+4. After installation you can *Launch*
+5. Select a directory as workspace and Launch
+6. Goto File -> New -> Java Project , give project nae and create
+7. Remove the file from src (it creates error)
+8. right click and create class, here you can start.
