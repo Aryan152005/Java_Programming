@@ -1,4 +1,4 @@
-
+package BasicPrograms;
 public class tableOfTwo {
 	public static void main(String[] args) {
 		int key = 5;

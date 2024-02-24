@@ -356,4 +356,56 @@ public class fibonacci {
 	}
 }
 ```
-mpre sample codes are written in Eclipse IDE and stored in : *Eclipse\My_First_Project\src*
+more sample codes are written in Eclipse IDE and stored in : *Eclipse\My_First_Project\src*
+
+(19-02-2024)
+
+Pattern Printing 
+1. Triangular Pyramid: 
+    - It is implemented with nested for loop.
+    - Outer loop is used for iteration of rows
+    - Inner loop is for iteration of coloumns
+
+## Object Oriented Programming in Java
+| Procedural (C language)| Object oriented (Java) |
+| -----------|-----------------|
+|Time consuming application development|Rapid application develoment|
+|Low execution time (Advantage)| High execution time (Disadvantage) |
+|C is middle level language it can be converted easily to machine language|Java is high level language so it is time consuming to convert it to machine language|
+
+Class and object:
+
+**Java objects are always created inside the HEAP MEMORY**
+```java
+public class A {
+	int num; // Instance variable
+	
+	public static void main(String[] args) {
+		A a1 = new A(); // Object/Instance
+	}
+}
+```
+- Every instance has its own copy of variable. Here num is the variable of that particular instance so num is instance variable
+
+```mermaid
+flowchart LR
+subgraph Heap Memory
+    subgraph  7000: address of object/instance 
+    A[num: Instance variabe]
+    end
+end
+```
+```mermaid
+flowchart LR
+  subgraph Heap Memory
+    direction TB
+    subgraph B1
+        direction RL
+        i1 -->f1
+    end
+    subgraph B2
+        direction BT
+        i2 -->f2
+    end
+  end
+```
